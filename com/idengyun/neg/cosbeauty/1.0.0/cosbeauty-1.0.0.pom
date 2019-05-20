@@ -8,6 +8,12 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>com.idengyun.neg</groupId>
+      <artifactId>nelibrary</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <artifactId>cosbeautysdk1.3</artifactId>
       <type>aar</type>
       <scope>compile</scope>
@@ -34,12 +40,6 @@
       <groupId>android.arch.work</groupId>
       <artifactId>work-runtime</artifactId>
       <version>1.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.idengyun.neg</groupId>
-      <artifactId>nelibrary</artifactId>
-      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>

@@ -9,12 +9,6 @@
   <dependencies>
     <dependency>
       <groupId>com.idengyun.neg</groupId>
-      <artifactId>nelibrary</artifactId>
-      <version>1.0.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.idengyun.neg</groupId>
       <artifactId>cosbeauty</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
@@ -30,17 +24,6 @@
       <artifactId>ble</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <artifactId>cosbeautysdk1.3</artifactId>
-      <type>aar</type>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
