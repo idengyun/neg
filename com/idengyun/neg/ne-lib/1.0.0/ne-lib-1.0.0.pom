@@ -14,27 +14,27 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>neg</groupId>
-      <artifactId>ne-lib</artifactId>
-      <version>unspecified</version>
+      <groupId>com.idengyun.neg</groupId>
+      <artifactId>nelibrary</artifactId>
+      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>neg</groupId>
+      <groupId>com.idengyun.neg</groupId>
       <artifactId>cosbeauty</artifactId>
-      <version>unspecified</version>
+      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>neg</groupId>
+      <groupId>com.idengyun.neg</groupId>
       <artifactId>jinmu</artifactId>
-      <version>unspecified</version>
+      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>neg</groupId>
+      <groupId>com.idengyun.neg</groupId>
       <artifactId>ble</artifactId>
-      <version>unspecified</version>
+      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
