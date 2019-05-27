@@ -12,12 +12,24 @@
       <artifactId>runtime</artifactId>
       <version>1.1.1</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>android.arch.work</groupId>
       <artifactId>work-runtime</artifactId>
       <version>1.0.1</version>
       <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.idengyun.neg</groupId>
@@ -35,6 +47,18 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.lzy.net</groupId>
+      <artifactId>okgo</artifactId>
+      <version>3.0.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lzy.net</groupId>
+      <artifactId>okhttputils</artifactId>
+      <version>1.6.7</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
